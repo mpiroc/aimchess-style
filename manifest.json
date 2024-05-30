@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Aimchess Min-width Remover",
+    "description": "Unsets the 'min-width' property to allow larger chessboards.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "css": [
+                "aimchess.css"
+            ],
+            "matches": [
+                "https://aimchess.com/modules/*"
+            ]
+        }
+    ]
+}
